@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <title>Site para ONG - Cruzeiro do Sul</title>
+        <meta charset="utf-8" lang="pt">
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    </head>
+
+    <body>
+        <main>
+
+             <button id="mode-toggle" aria-label="Alternar entre modo claro e escuro">Alternar Modo</button>
+            
+            <!--Otimização banner topo-->
+<img class="banner"  srcset="assets/images/banner-topo.png 600w, assets/images/banner-topo.png 900w, assets/images/banner-topo.png 1200w"
+     sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
+     src="assets/images/banner-topo.png"
+     alt="Descrição da imagem">
+
+
+        
+         <a href="index.html"><img class="logo" alt="logo ong brasil" src="assets/images/ong-log.png" width="300" > <!--logo site--></a>
+         
+            <div class="topnav" id="myTopnav" > <!--menu principal site-->
+                <a href="index.html">Home</a>
+                <a href="" >Nossa Ong</a>
+                <a href="projetos.html" >Projetos</a>
+                <a href="" >Faça uma doação</a>
+                <a href="" >Parceiros</a>
+                <a href="cadastro.html" >Faça seu cadastro</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+            <!--função para a chamada responsiva da barra de navegação!-->
+         <script>   
+                function myFunction() {    
+                var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                      x.className += " responsive";
+                  } else {
+                      x.className = "topnav";
+                  }
+                }
+        </script>
+
+            </div>
+        
+        <h2 class="titulo1">Conheça nossos projetos</h2><!--Títulos principais-->
+        <h2 class="titulo2">Aqui na ONG XXX, temos vários projetos que impulsionam as pessoas, gerando oportunidades e abraçando vidas. Ajude com o noss projeto e faça parte desse mundo grandioso.</h2>
+        
+        
+        <!--projetos -->
+        <div class="tabela-flex">
+            <div class="linha-flex">
+                <div class="celula-flex"><img id="image1" alt="banner ong" src="assets/images/arte-cultura-1.png"><p>Em parceria com o Museo XXX de Curitiba-PR estamos fazendo Arte medicinal com nossos beneficiários. <br><br><button>Saiba Mais!</button></p></div>
+                <div class="celula-flex"><img id="image2" alt="banner ong" src="assets/images/crianca.jpg"><p>Fazemos todos os meses eventos com as crianças afim de arrecadar doações, roupas e alimentos<br><br><button>Saiba Mais!</button></p></div>
+                <div class="celula-flex"><img id="image3" alt="banner ong" src="assets/images/idoso-1.jpg"><p>Gincanas, bincos entre outros para a socialização dos nossos idosos.<br><br><button disabled>Saiba Mais!</button></p></div>
+            </div>
+        </div>
+
+        <!--opções do projeto -->
+        <div class="tabela-flex2"> 
+            <div class="linha-flex2">
+               <div id="box1"> 
+                   <div class="celula-flex2"><img id="imageicon1" alt="banner ong" src="assets/images/dinheiro.png"><h3>Faça uma doação</h3><p>Ajude nossa ONG com qualquer valor pois qualquer valor é muito bem vindo e vai fazer o bem para que mais precisa!</p></div>
+               </div>
+
+               <div id="box2">   
+                    <div class="celula-flex2"><img id="imageicon2" alt="banner ong" src="assets/images/adicionar-usuario.png"><h3>Seja um Voluntário</h3><p>Ajude a nossa ONG a crescer cada vez mais, quanto mais pessoas ajudando mais pessoas serão ajudadas consequentemente fazendo um mundo cada vez melhor.</p></div>
+               </div>
+
+               <div id="box3">   
+                     <div class="celula-flex2"><img id="imageicon3" alt="banner ong" src="assets/images/mao-coracao.png"><h3>Doe algo!</h3><p>Tem algo para doar? Aceitamos com o mairo carinho do mundo. Todo tipo de material e alimento é de extrema importância para o funcionamento da nossa ONG, com certeza á a ajuda que estamos precisando.</p></div>
+               </div>
+               
+               <div id="box4">   
+                      <div class="celula-flex2"><img id="imageicon4" alt="banner ong" src="assets/images/atendimento-ao-cliente.png"><h3>Entre em contato</h3><p>Temos alguns canais de contato como nosso telefone direto, email e Whatsapp onde vamos te atender e entender um pouco sobre você e no que possamos se ajudar</p></div>
+            </div>
+                        
+                    </div>
+            </div>
+        
+    </main>
+    
+         <!--Conteúdo institucional do site Ong-->
+         
+         <div class="conteudo">
+            <div class="conteudo-linha">
+                <div class="conteudo-flex"><img id="image-conteudo1" alt="missao da ong" src="assets/images/missao.jpg"></div>
+                <div class="conteudo-flex"><h2>Nossa Missão</h2><br><p>A missão de uma ONG é promover a transformação social, atuando com empatia, transparência e compromisso. Busca melhorar vidas, defender direitos, reduzir desigualdades e construir um futuro mais justo e solidário para todos, com base na colaboração e no respeito humano.</p></div>
+                <div class="conteudo-flex"><h2>Visão</h2><br><p>A visão de uma ONG é ser referência em transformação social, inspirando pessoas e comunidades a construir um mundo mais justo, inclusivo e sustentável. Busca ampliar seu alcance, fortalecer parcerias e gerar mudanças reais que promovam dignidade e oportunidades para todos.</p></div>
+                <div class="conteudo-flex"><h2>Valores</h2><br><p>Os valores de uma ONG fundamentam-se na solidariedade, ética, transparência e respeito. Guiam todas as ações com responsabilidade social, compromisso com a verdade, empatia e trabalho coletivo, fortalecendo a confiança e promovendo um impacto positivo duradouro nas comunidades em que atua.</p></div>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <div class="conteudo-linha">
+                <div class="conteudo-flex"><img id="image-conteudo2" alt="como ajudar a ong" src="assets/images/ajuda.jpg"></div>
+                <div class="conteudo-flex"><h2>Como Ajudar!</h2><br><p>Temos muito trabalho a fazer. Com a doação é possível fazer a diferença e tranformar as vidas das pessoas, das famílias, comunidade e do mundo. Veja como doar dinheiro, alimentos, roupas e muito mais</p><br><p>Endereço: Rua Centro, 2222 - 1</p><p>Atendimento: De Segunda a Sexta das 8:00 às 18:00</p><p>WhatsApp: (41) 99898-9898</p><p>Telefone: (41) 3030-3030</p></div>
+               
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <div class="conteudo-linha">
+                <div class="conteudo-flex"><img id="image-conteudo3" alt="como ajudar a ong" src="assets/images/grafico.avif"></div>
+                <div class="conteudo-flex"><h2>Segue nosso Gráfico mensal de doações!</h2><br><p>Temos muito trabalho a fazer. Com a doação é possível fazer a diferença e tranformar as vidas das pessoas, das famílias, comunidade e do mundo. Veja como doar dinheiro, alimentos, roupas e muito mais</p></div>
+               
+            </div>
+        </div>
+         
+        <div class="modal-overlay" id="modalOverlay">
+        <div class="privacy-modal">
+            <h2>Nós valorizamos a sua privacidade</h2>
+            <p>
+                Este site utiliza cookies para melhorar a sua experiência de navegação. 
+                Ao continuar, você concorda com a nossa <a href="politica-de-privacidade.html">Política de Privacidade</a>.
+            </p>
+            <button class="accept-button" id="acceptButton">Aceitar e Fechar</button>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+    
+
+
+         <!--rodapé-->
+        <footer>
+
+          <div class="meu-container">
+                    <!-- Conteúdo principal aqui -->
+
+             <div class="meu-rodape">
+                 <p >&copy; 2025 Minha ONG. Todos os direitos reservados.</p>
+             </div>
+            </div>
+        </footer>  
+
+
+    
+
+
+
+
+
+</html>
